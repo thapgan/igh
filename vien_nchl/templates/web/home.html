@@ -1,0 +1,513 @@
+{% extends 'header.html' %}
+{% block content %}
+  {% load static i18n %}
+  <aside id="colorlib-hero">
+    <div class="flexslider">
+      <ul class="slides">
+        <li style="background-image: url({% static 'images/may_noi_soi.jpg' %});">
+          <div class="overlay"></div>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-8 col-md-offset-2 col-md-pull-2 slider-text">
+                <div class="slider-text-inner">
+                  <h2 class="doc-holder">Luôn nỗ lực không ngừng vì sức khoẻ
+                    tiêu hóa, gan mật cộng đồng</h2>
+                  <p><a class="btn btn-primary btn-lg btn-learn"
+                        href="#">{% trans "Đào tạo ngay" %}</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li style="background-image: url({% static 'images/sieuam.jpg' %});">
+          <div class="overlay"></div>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-8 col-md-offset-2 col-md-pull-2 slider-text">
+                <div class="slider-text-inner">
+                  <h2 class="doc-holder">Mang tiến bộ khoa học kỹ thuật vào
+                    nghiên cứu và điều trị</h2>
+                  <p><a class="btn btn-primary btn-lg btn-learn"
+                        href="#">{% trans "Đào tạo ngay" %}</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li style="background-image: url({% static 'images/anh_sieu_am_noi_soi.jpg' %});">
+          <div class="overlay"></div>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-8 col-md-offset-2 col-md-pull-2 slider-text">
+                <div class="slider-text-inner">
+                  <h2 class="doc-holder">Đào tạo và cung cấp nguồn nhân lực chất
+                    lượng trong lĩnh vực tiêu hóa gan mật</h2>
+                  <p><a class="btn btn-primary btn-lg btn-learn"
+                        href="appointment.html">{% trans "Đào tạo ngay" %}</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </aside>
+  <div id="colorlib-intro">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="intro animate-box">
+            <div class="intro-grid color-2">
+              <span class="icon"><i class="fas fa-user-md"></i></span>
+              <h3>{% trans "Chuyên gia hàng đầu" %}</h3>
+              <p>{% blocktrans %}Đội ngũ chuyên gia hàng đầu trong lĩnh vực tiêu hóa và gan mật
+                tại Việt Nam{% endblocktrans %} </p>
+            </div>
+            <div class="intro-grid color-1">
+              <span class="icon"><i class="fas fa-search-plus"></i></span>
+              <h3>{% trans "Nghiên cứu" %} </h3>
+              <p>{% blocktrans %}Thực hiện nghiên cứu đề tài dự án trong lĩnh vực tiêu hóa, gan
+                mật, chăm sóc sức khỏe cộng đồng và các nghiên cứu xã hội liên
+                quan{% endblocktrans %} </p>
+            </div>
+            <div class="intro-grid color-2">
+              <span class="icon"><i class="fas fa-comments"></i></span>
+              <h3>{% trans "Tư vấn" %} </h3>
+              <p>{% blocktrans %}Tư vấn chuyển giao kết quả nghiên cứu khoa học{% endblocktrans %}</p>
+            </div>
+            <div class="intro-grid color-3">
+              <span class="icon"><i class="fab fa-leanpub"></i></span>
+              <h3>{% trans "Đào tạo" %}</h3>
+              <p>{% blocktrans %}Đào tạo sau đại học và đạo tạo liên tục cho bác sĩ và điều
+                dưỡng về tiêu hóa, gan mật{% endblocktrans %}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Gioi thieu -->
+  <div id="colorlib-testimonial" style="padding: 2em 2em 2em 3em"
+       class="colorlib-bg-section">
+    <div class="container">
+      <div class="row animate-box">
+        <div class="col-md-8 col-md-offset-2 text-center colorlib-heading"
+             style="margin-bottom: 1em; margin-top: 2em">
+          <h2>{% trans "Giới thiệu" %}</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="colorlib-choose">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="choose">
+          <div class="half img-bg"
+               style="background-image: url({% static 'images/vnc.JPG' %});"></div>
+          <div class="half features-wrap">
+            <div class="colorlib-heading animate-box">
+              <p style="font-size: large">{% blocktrans %}Là tổ chức khoa học công nghệ nghiên
+                cứu và đào tạo chuyên sâu về các vấn đề tiêu hóa và gan mật, viện ra đời với các chức năng
+                chính:{% endblocktrans %}</p>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="features animate-box">
+                  <span class="icon text-center"><i
+                    class="flaticon-healthy-1"></i></span>
+                  <div class="desc">
+                    <h3>{% trans "Nghiên cứu và triển khai" %}</h3>
+                  </div>
+                </div>
+                <div class="features animate-box">
+                  <span class="icon text-center"><i
+                    class="fas fa-chalkboard-teacher"></i></span>
+                  <div class="desc">
+                    <h3>{% trans "Tư vấn và chuyển giao kỹ thuật" %}</h3>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="features animate-box">
+                  <span class="icon text-center"><i
+                    class="fas fa-users"></i></span>
+                  <div class="desc">
+                    <h3>{% trans "Đào tạo và bồi dưỡng" %}</h3>
+                  </div>
+                </div>
+                <div class="features animate-box">
+                  <span class="icon text-center"><i
+                    class="fas fa-handshake"></i></span>
+                  <div class="desc">
+                    <h3>{% trans "Hợp tác và phát triển" %}</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End -->
+  <!-- Chuyen nganh dao tao -->
+  <div id="colorlib-services" style="padding: 2em 0">
+    <div class="container">
+      <div class="row animate-box">
+        <div class="col-md-8 col-md-offset-2 text-center colorlib-heading"
+             style="margin-bottom: 1em; margin-top: 2em">
+          <h2>{% trans "Chuyên ngành đào tạo" %}</h2>
+          <p>{% blocktrans %}Đào tạo nâng cao chuyên ngành , trình độ chuyên môn cho cán bộ
+            y tế trong lĩnh vực gan , mật{% endblocktrans %} </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 col-sm-6 col-xs-12 animate-box text-center
+				fadeInUp animated-fast">
+          <div class="doctor">
+            <div class="staff-img" style="background-image: url({% static 'images/1.jpg' %})
+              ;"></div>
+            <div class="desc">
+              <h3><a href="#">Đào tạo sau đại học </a></h3>
+              <ul class="colorlib-social">
+                <li><a href="#"><i class="fab fa-leanpub"></i></a></li>
+                <li><a href="#"><i class="fas fa-chalkboard-teacher"></i></a>
+                </li>
+                <li><a href="#"><i class="fas fa-graduation-cap"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12 animate-box text-center
+				fadeInUp animated-fast">
+          <div class="doctor">
+            <div class="staff-img"
+                 style="background-image: url({% static 'images/2.jpg' %});"></div>
+            <div class="desc">
+              <h3><a href="#">Đào tạo chuyển giao kỹ thuật </a></h3>
+              <ul class="colorlib-social">
+                <li><a href="#"><i class="fab fa-leanpub"></i></a></li>
+                <li><a href="#"><i class="fas fa-chalkboard-teacher"></i></a>
+                </li>
+                <li><a href="#"><i class="fas fa-graduation-cap"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12 animate-box text-center
+				fadeInUp animated-fast">
+          <div class="doctor">
+            <div class="staff-img"
+                 style="background-image: url({% static 'images/3.jpg' %});"></div>
+            <div class="desc">
+              <h3><a href="#">Cập nhập kiến thức y khoa</a></h3>
+              <ul class="colorlib-social">
+                <li><a href="#"><i class="fab fa-leanpub"></i></a></li>
+                <li><a href="#"><i class="fas fa-chalkboard-teacher"></i></a>
+                </li>
+                <li><a href="#"><i class="fas fa-graduation-cap"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End -->
+  <!-- Trang thiet bi hien dai -->
+  <div id="colorlib-testimonial1" class="colorlib-bg-section"
+       style="margin-bottom: 2em">
+    <div class="container">
+      <div class="row animate-box">
+        <div class="col-md-8 col-md-offset-2 text-center colorlib-heading"
+             style="margin-bottom: 1em; margin-top: 2em">
+          <h2>{% trans "Trang thiết bị hiện đại" %} </h2>
+          <p>{% blocktrans %}Viện nghiên cứu phối hợp cùng phòng khám đa khoa Hoàng Long áp dụng hệ thống máy móc hiện
+            đại và tiên tiến
+            để tiến hành các nghiên cứu chuyên sâu trong lĩnh vực tiêu hóa gan mật.{% endblocktrans %}</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 animate-box">
+          <div class="owl-carousel">
+            <div class="item">
+              <div class="doctor">
+                <div class="staff-img"
+                     style="background-image: url({% static 'images/m1.jpg' %});"></div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="doctor">
+                <div class="staff-img"
+                     style="background-image: url({% static 'images/m2.jpg' %});"></div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="doctor">
+                <div class="staff-img"
+                     style="background-image: url({% static  'images/s1.JPG' %});"></div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="doctor">
+                <div class="staff-img"
+                     style="background-image: url({% static 'images/s2.JPG' %});"></div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="doctor">
+                <div class="staff-img"
+                     style="background-image: url({% static 'images/s3.jpg' %});"></div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End -->
+  <!-- De tai nghien cuu -->
+  <div id="colorlib-blog">
+    <div class="container">
+      <div class="row animate-box">
+        <div class="col-md-6 col-md-offset-3 text-center colorlib-heading"
+             style="margin-bottom: 1em; margin-top: 2em">
+          <h2>{% trans "Nghiên cứu" %}</h2>
+          <p>{% blocktrans %}Các đề tài nghiên cứu chuyên môn tiêu biểu.{% endblocktrans %}</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="blog-entry">
+            <a href="#" class="blog-img"
+               style="background-image: url({% static 'images/testtho.jpg' %});">
+            </a>
+            <div class="desc">
+              <h3><a href="#">Bệnh lý nhiễm vi khuẩn HP trong các đối tượng
+                nguy cơ cao</a></h3>
+              <p>
+                Vi khuẩn Hp là nguyên nhân chính gây bệnh viêm loét dạ dày tá
+                tràng và đặc biệt là nguy cơ mắc bệnh ung thư dạ dày, đó cũng là
+                nguyên nhân làm cho bệnh dai dẳng lâu khỏi và tái đi ...</p>
+              <p><a href="#">{% trans 'Xem thêm' %} <i class="icon-arrow-right3"></i></a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="blog-entry">
+            <a href="#" class="blog-img"
+               style="background-image: url({% static 'images/do_ap_luc_that_thuc_quan.JPG' %});">
+            </a>
+            <div class="desc">
+              <h3><a href="#">Nghiên cứu rối loạn vận động cơ thắt ống
+                tiêu hóa</a></h3>
+              <p>
+                Rối loạn vận động là một loại tổn thương bệnh lý mới được phát
+                hiện, chiếm một tỷ lệ cao, có đến hơn 30% dân chúng bị rối loạn
+                này. Hiện tại chẩn đoán và điều trị còn gặp ít nhiều khó
+                khăn.</p>
+              <p><a href="#">{% trans 'Xem thêm' %} <i class="icon-arrow-right3"></i></a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="blog-entry">
+            <a href="#" class="blog-img"
+               style="background-image: url({% static 'images/anh_sieu_am_noi_soi.jpg' %});">
+            </a>
+            <div class="desc">
+              <h3><a href="#">Các kỹ thuật chẩn đoán và điều trị mới
+                trong ung thư đường tiêu hóa</a>
+              </h3>
+              <p>Ung thư đường tiêu hóa chiếm tỷ lệ lớn nhất trong số các loại
+                bệnh ung thư. Nó thuộc loại ung thư nguy hiểm bởi bệnh thường
+                khởi phát với.</p>
+              <p><a href="#">{% trans 'Xem thêm' %} <i class="icon-arrow-right3"></i></a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End -->
+  <!-- Doi ngu chuyen gia -->
+  <div id="colorlib-testimonial" class="colorlib-bg-section">
+    <div class="container">
+      <div class="row animate-box">
+        <div class="col-md-8 col-md-offset-2 text-center colorlib-heading"
+             style="margin-bottom: 1em; margin-top: 2em">
+          <h2>{% trans "Đội ngũ chuyên gia hàng đầu" %}</h2>
+          <p>{% blocktrans %}Đội ngũ chuyên gia, các bác sĩ là những người tận tâm với nghề,
+            giỏi chuyên môn được đào tạo bài bản tại Việt Nam và nước ngoài.{% endblocktrans %}</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 animate-box">
+          <div class="owl-carousel">
+            <div class="item">
+              <div class="testimony text-center">
+                <span class="img-user"
+                      style="background-image: url({% static 'images/bacsy.jpg' %});"></span>
+                <span class="user">GS.TS ĐÀO VĂN LONG</span>
+                <blockquote>
+                  <p>"Giáo sư Đào Văn Long là chuyên gia có hơn 30 năm kinh
+                    nghiệm trong lĩnh vực Tiêu hóa – Gan mật."</p>
+                </blockquote>
+              </div>
+            </div>
+            <div class="item">
+              <div class="testimony text-center">
+                <span class="img-user"
+                      style="background-image: url({% static 'images/nguyen_duy_thang.jpg' %});"></span>
+                <span class="user">PGS.TS NGUYỄN DUY THẮNG</span>
+                <blockquote>
+                  <p>"Pgs. Ts Nguyễn Duy Thắng. Nguyên Phó Giám Đốc Bệnh Viện
+                    Nông Nghiệp ."</p>
+                </blockquote>
+              </div>
+            </div>
+            <div class="item">
+              <div class="testimony text-center">
+                <span class="img-user"
+                      style="background-image: url({% static 'images/nguyen-thi-van-hong.png' %});"></span>
+                <span class="user">PGS.TS NGUYỄN THỊ VÂN HỒNG</span>
+                <blockquote>
+                  <p>"Pgs. Ts Nguyễn Thị Vân Hồng .Nguyên phó trưởng khoa Tiêu
+                    hóa -
+                    Bệnh viện Bạch Mai"</p>
+                </blockquote>
+              </div>
+            </div>
+            <div class="item">
+              <div class="testimony text-center">
+                <span class="img-user"
+                      style="background-image: url({% static 'images/nguyencongkhan.JPG' %});"></span>
+                <span class="user">GS.TS NGUYỄN CÔNG KHẨN </span>
+                <blockquote>
+                  <p>"Giáo sư Nguyễn Công Khẩn. Nguyên Cục trưởng Cục khoa học
+                    công nghệ và Đào tạo - Bộ y tế."</p>
+                </blockquote>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- End -->
+  <div id="colorlib-counter" class="colorlib-counters"
+       style="background-image: url(images/img_bg_2.jpg);"
+       data-stellar-background-ratio="0.5">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-10 col-md-offset-1">
+          <div class="row">
+            <div class="col-md-3 col-sm-6 text-center animate-box">
+              <span class="icon"><i class="fas fa-user-md"></i></span>
+              <!--<span class="colorlib-counter js-counter" data-from="0"
+                    data-to="3297" data-speed="5000"
+                    data-refresh-interval="50"></span>-->
+              <span class="colorlib-counter-label">{% trans "Nghiên cứu và triển khai" %}</span>
+            </div>
+            <div class="col-md-3 col-sm-6 text-center animate-box">
+              <span class="icon"><i class="fas fa-users"></i></span>
+              <span class="colorlib-counter-label">{% trans "Đào tạo và bồi dưỡng" %}</span>
+            </div>
+            <div class="col-md-3 col-sm-6 text-center animate-box">
+              <span class="icon"><i
+                class="fas fa-chalkboard-teacher"></i></span>
+              <!--<span class="colorlib-counter js-counter" data-from="0"
+                    data-to="400" data-speed="5000"
+                    data-refresh-interval="50"></span>-->
+              <span class="colorlib-counter-label">{% trans "Tư vấn và chuyển giao" %}</span>
+            </div>
+            <div class="col-md-3 col-sm-6 text-center animate-box">
+              <span class="icon"><i class="fas fa-handshake"></i></span>
+              <!--<span class="colorlib-counter js-counter" data-from="0"
+                    data-to="30" data-speed="5000"
+                    data-refresh-interval="50"></span>-->
+              <span class="colorlib-counter-label">{% trans "Hợp tác và phát triển" %}</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Tin tuc -->
+  <div id="colorlib-blog" style="padding: 2em 0">
+    <div class="container">
+      <div class="row animate-box">
+        <div class="col-md-6 col-md-offset-3 text-center colorlib-heading"
+             style="margin-bottom: 1em; margin-top: 2em">
+          <h2>{% trans "Tin tức" %}</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="blog-entry">
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe class="embed-responsive-item"
+                      src="https://www.youtube.com/embed/55NdZXx_aj4"
+                      allowfullscreen></iframe>
+            </div>
+            <div class="desc">
+              <h3><a href="#">Lễ ra mắt viện nghiên cứu và đào tạo tiêu
+                hóa, gan mật</a></h3>
+              <p>Ngày 13/5/2018, Liên Hiệp các hội khoa học và kỹ thuật Việt Nam
+                tổ chức Lễ công bố thành lập Viện nghiên cứu và đào tạo tiêu hóa
+                ...</p>
+              <p><a href="#">{% trans 'Xem thêm' %} <i class="icon-arrow-right3"></i></a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="blog-entry">
+            <a href="#" class="blog-img"
+               style="background-image: url({% static 'images/m3.jpg' %});">
+              <p class="date">
+                <span>13</span>
+                <span>05. 2018</span>
+              </p>
+            </a>
+            <div class="desc">
+              <h3><a href="#">Ra mắt Viện nghiên cứu và đào tạo chuyên
+                sâu tiêu hóa, gan mật đầu tiên ở Việt Nam</a></h3>
+              <p>Viện nghiên cứu và đào tạo tiêu hóa, gan mật được thành lập vào
+                ngày 5.3.2018 ...</p>
+              <p><a href="https://bit.ly/2zBgf1o">{% trans 'Xem thêm' %}<i
+                class="icon-arrow-right3"></i></a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="blog-entry">
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe class="embed-responsive-item"
+                      src="https://www.youtube.com/embed/dKlZd18Mcas"
+                      allowfullscreen></iframe>
+            </div>
+            <div class="desc">
+              <h3><a href="#">Lễ ra mắt viện nghiên cứu và đào tạo tiêu
+                hóa, gan mật</a></h3>
+              <p>Ngày 13/5/2018, Liên Hiệp các hội khoa học và kỹ thuật Việt Nam
+                tổ chức Lễ công bố thành lập Viện nghiên cứu và đào tạo tiêu hóa
+                ...</p>
+              <p><a href="#">{% trans 'Xem thêm' %} <i class="icon-arrow-right3"></i></a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- End -->
+{% endblock content %}

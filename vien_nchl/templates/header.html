@@ -1,0 +1,104 @@
+{% extends 'base_web.html' %}
+{% block header %}
+  {% load static i18n %}
+  {% get_current_language as LANGUAGE_CODE %}
+  <nav class="colorlib-nav" role="navigation">
+    <div class="top-menu">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="top">
+              <div class="row">
+                <div class="col-md-3">
+                  <div id="colorlib-logo">
+                    <a href="index.html">
+                      <div class="logo-lg" style="font-size: 20px">
+                        <img
+                          style="max-height:150px; max-width: 150px; display:
+                           inline"
+                          class="img-responsive"
+                          {% if LANGUAGE_CODE == 'vi' %}
+                          src="{% static 'images/logoIGH_Vietnamese.png' %}">
+                          {% else %}
+                          src="{% static 'images/logoIGH_English.png' %}">
+                          {% endif %}
+                      </div>
+                      <div class="logo-mini">
+                        <img
+                          style="max-height:70px; max-width: 70px; display:
+                          inline"
+                          class="img-responsive"
+                          {% if LANGUAGE_CODE == 'vi' %}
+                          src="{% static 'images/logoIGH_Vietnamese.png' %}">
+                          {% else %}
+                          src="{% static 'images/logoIGH_English.png' %}">
+                          {% endif %}
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="menu-wrap">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-8">
+              <div class="menu-1">
+                <ul>
+                  <li class="active"><a href="index.html">{%  trans "Trang chủ" %}</a></li>
+                  <li><a href="about.html">{% trans "Giới thiệu" %}</a></li>
+                  <li><a href="nghiencuu.html">{% trans "Nghiên cứu" %}</a></li>
+                  <li><a href="daotao.html">{% trans "Đào tạo" %}</a></li>
+                  <li><a href="tintuc.html">{% trans "Tin tức" %}</a></li>
+                  <li><a href="lienhe.html">{% trans "Liên hệ" %}</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <p class="btn-cta"><a href="appointment.html"><span>{% trans "Đăng ký khoá học" %}
+                &nbsp;<i class="icon-calendar3"></i></span></a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <header class="header">
+    <a href="/" class="header__logo"><img
+                                          {% if LANGUAGE_CODE == 'vi' %}
+                                          style="width: 73%; padding-left: 50px;"
+                                          src="{% static 'images/logoIGH_Vietnamese.png' %}"
+                                          {% else %}
+                                          style="width: 88%; padding-left: 31px; margin-top: -25px"
+                                          src="{% static 'images/logoIGH_English.png' %}"
+                                          {% endif %}
+                                          class="img-responsive"></a>
+    <nav>
+      <a class="nav-toggle" href="javascript:;" id="nav-toggle" title="Toggle Nav">
+        <i></i>
+        <i></i>
+        <i></i>
+      </a>
+      <div class="nav-wrap">
+        <ul class="nav">
+          <li class="nav__link"><a style="padding: 0px 0px; color: white" href="index.html">{% trans "Trang chủ" %}</a></li>
+          <li class="nav__link"><a style="padding: 0px 0px; color: white" href="about.html">{% trans "Giới thiệu" %}</a></li>
+          <li class="nav__link"><a style="padding: 0px 0px; color: white" href="nghiencuu.html">{% trans "Nghiên cứu" %}</a></li>
+          <li class="nav__link"><a style="padding: 0px 0px; color: white" href="daotao.html">{%  trans "Đào tạo" %}</a></li>
+          <li class="nav__link"><a style="padding: 0px 0px; color: white" href="tintuc.html">{% trans "Tin tức" %}</a></li>
+          <li class="nav__link"><a style="padding: 0px 0px; color: white" href="lienhe.html">{% trans "Liên hệ" %}</a></li>
+        </ul>
+
+        <ul class="utility-nav">
+          <li>
+            <a class="utility-nav__link" href=""><i class="icon-calendar3"></i>&nbsp;{% trans "Đăng ký khoá học" %}</a>
+          </li>
+        </ul><!-- /utility-nav -->
+
+      </div><!-- /nav-wrap -->
+    </nav>
+  </header>
+{% endblock %}

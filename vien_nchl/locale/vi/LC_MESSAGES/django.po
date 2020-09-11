@@ -1,0 +1,465 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-08-09 16:46+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: config/settings/base.py:293
+msgid "Viet Nam"
+msgstr ""
+
+#: config/settings/base.py:294
+msgid "English"
+msgstr ""
+
+#: vien_nchl/templates/account/account_inactive.html:5
+#: vien_nchl/templates/account/account_inactive.html:8
+msgid "Account Inactive"
+msgstr ""
+
+#: vien_nchl/templates/account/account_inactive.html:10
+msgid "This account is inactive."
+msgstr ""
+
+#: vien_nchl/templates/account/email.html:7
+msgid "Account"
+msgstr ""
+
+#: vien_nchl/templates/account/email.html:10
+msgid "E-mail Addresses"
+msgstr ""
+
+#: vien_nchl/templates/account/email.html:13
+msgid "The following e-mail addresses are associated with your account:"
+msgstr ""
+
+#: vien_nchl/templates/account/email.html:27
+msgid "Verified"
+msgstr ""
+
+#: vien_nchl/templates/account/email.html:29
+msgid "Unverified"
+msgstr ""
+
+#: vien_nchl/templates/account/email.html:31
+msgid "Primary"
+msgstr ""
+
+#: vien_nchl/templates/account/email.html:37
+msgid "Make Primary"
+msgstr ""
+
+#: vien_nchl/templates/account/email.html:38
+msgid "Re-send Verification"
+msgstr ""
+
+#: vien_nchl/templates/account/email.html:39
+msgid "Remove"
+msgstr ""
+
+#: vien_nchl/templates/account/email.html:46
+msgid "Warning:"
+msgstr ""
+
+#: vien_nchl/templates/account/email.html:46
+msgid ""
+"You currently do not have any e-mail address set up. You should really add "
+"an e-mail address so you can receive notifications, reset your password, etc."
+msgstr ""
+
+#: vien_nchl/templates/account/email.html:51
+msgid "Add E-mail Address"
+msgstr ""
+
+#: vien_nchl/templates/account/email.html:56
+msgid "Add E-mail"
+msgstr ""
+
+#: vien_nchl/templates/account/email.html:66
+msgid "Do you really want to remove the selected e-mail address?"
+msgstr ""
+
+#: vien_nchl/templates/account/email_confirm.html:6
+#: vien_nchl/templates/account/email_confirm.html:10
+msgid "Confirm E-mail Address"
+msgstr ""
+
+#: vien_nchl/templates/account/email_confirm.html:16
+#, python-format
+msgid ""
+"Please confirm that <a href=\"mailto:%(email)s\">%(email)s</a> is an e-mail "
+"address for user %(user_display)s."
+msgstr ""
+
+#: vien_nchl/templates/account/email_confirm.html:20
+msgid "Confirm"
+msgstr ""
+
+#: vien_nchl/templates/account/email_confirm.html:27
+#, python-format
+msgid ""
+"This e-mail confirmation link expired or is invalid. Please <a href="
+"\"%(email_url)s\">issue a new e-mail confirmation request</a>."
+msgstr ""
+
+#: vien_nchl/templates/account/login.html:7
+#: vien_nchl/templates/account/login.html:11
+#: vien_nchl/templates/account/login.html:44 vien_nchl/templates/base.html:66
+msgid "Sign In"
+msgstr ""
+
+#: vien_nchl/templates/account/login.html:16
+#, python-format
+msgid ""
+"Please sign in with one\n"
+"of your existing third party accounts. Or, <a href=\"%(signup_url)s\">sign "
+"up</a>\n"
+"for a %(site_name)s account and sign in below:"
+msgstr ""
+
+#: vien_nchl/templates/account/login.html:26
+msgid "or"
+msgstr ""
+
+#: vien_nchl/templates/account/login.html:33
+#, python-format
+msgid ""
+"If you have not created an account yet, then please\n"
+"<a href=\"%(signup_url)s\">sign up</a> first."
+msgstr ""
+
+#: vien_nchl/templates/account/login.html:43
+msgid "Forgot Password?"
+msgstr ""
+
+#: vien_nchl/templates/account/logout.html:5
+#: vien_nchl/templates/account/logout.html:8
+#: vien_nchl/templates/account/logout.html:17 vien_nchl/templates/base.html:57
+msgid "Sign Out"
+msgstr ""
+
+#: vien_nchl/templates/account/logout.html:10
+msgid "Are you sure you want to sign out?"
+msgstr ""
+
+#: vien_nchl/templates/account/password_change.html:6
+#: vien_nchl/templates/account/password_change.html:9
+#: vien_nchl/templates/account/password_change.html:14
+#: vien_nchl/templates/account/password_reset_from_key.html:5
+#: vien_nchl/templates/account/password_reset_from_key.html:8
+#: vien_nchl/templates/account/password_reset_from_key_done.html:4
+#: vien_nchl/templates/account/password_reset_from_key_done.html:7
+msgid "Change Password"
+msgstr ""
+
+#: vien_nchl/templates/account/password_reset.html:7
+#: vien_nchl/templates/account/password_reset.html:11
+#: vien_nchl/templates/account/password_reset_done.html:6
+#: vien_nchl/templates/account/password_reset_done.html:9
+msgid "Password Reset"
+msgstr ""
+
+#: vien_nchl/templates/account/password_reset.html:16
+msgid ""
+"Forgotten your password? Enter your e-mail address below, and we'll send you "
+"an e-mail allowing you to reset it."
+msgstr ""
+
+#: vien_nchl/templates/account/password_reset.html:21
+msgid "Reset My Password"
+msgstr ""
+
+#: vien_nchl/templates/account/password_reset.html:24
+msgid "Please contact us if you have any trouble resetting your password."
+msgstr ""
+
+#: vien_nchl/templates/account/password_reset_done.html:15
+msgid ""
+"We have sent you an e-mail. Please contact us if you do not receive it "
+"within a few minutes."
+msgstr ""
+
+#: vien_nchl/templates/account/password_reset_from_key.html:8
+msgid "Bad Token"
+msgstr ""
+
+#: vien_nchl/templates/account/password_reset_from_key.html:12
+#, python-format
+msgid ""
+"The password reset link was invalid, possibly because it has already been "
+"used.  Please request a <a href=\"%(passwd_reset_url)s\">new password reset</"
+"a>."
+msgstr ""
+
+#: vien_nchl/templates/account/password_reset_from_key.html:18
+msgid "change password"
+msgstr ""
+
+#: vien_nchl/templates/account/password_reset_from_key.html:21
+#: vien_nchl/templates/account/password_reset_from_key_done.html:8
+msgid "Your password is now changed."
+msgstr ""
+
+#: vien_nchl/templates/account/password_set.html:6
+#: vien_nchl/templates/account/password_set.html:9
+#: vien_nchl/templates/account/password_set.html:14
+msgid "Set Password"
+msgstr ""
+
+#: vien_nchl/templates/account/signup.html:6
+msgid "Signup"
+msgstr ""
+
+#: vien_nchl/templates/account/signup.html:9
+#: vien_nchl/templates/account/signup.html:19 vien_nchl/templates/base.html:62
+msgid "Sign Up"
+msgstr ""
+
+#: vien_nchl/templates/account/signup.html:11
+#, python-format
+msgid ""
+"Already have an account? Then please <a href=\"%(login_url)s\">sign in</a>."
+msgstr ""
+
+#: vien_nchl/templates/account/signup_closed.html:5
+#: vien_nchl/templates/account/signup_closed.html:8
+msgid "Sign Up Closed"
+msgstr ""
+
+#: vien_nchl/templates/account/signup_closed.html:10
+msgid "We are sorry, but the sign up is currently closed."
+msgstr ""
+
+#: vien_nchl/templates/account/verification_sent.html:5
+#: vien_nchl/templates/account/verification_sent.html:8
+#: vien_nchl/templates/account/verified_email_required.html:5
+#: vien_nchl/templates/account/verified_email_required.html:8
+msgid "Verify Your E-mail Address"
+msgstr ""
+
+#: vien_nchl/templates/account/verification_sent.html:10
+msgid ""
+"We have sent an e-mail to you for verification. Follow the link provided to "
+"finalize the signup process. Please contact us if you do not receive it "
+"within a few minutes."
+msgstr ""
+
+#: vien_nchl/templates/account/verified_email_required.html:12
+msgid ""
+"This part of the site requires us to verify that\n"
+"you are who you claim to be. For this purpose, we require that you\n"
+"verify ownership of your e-mail address. "
+msgstr ""
+
+#: vien_nchl/templates/account/verified_email_required.html:16
+msgid ""
+"We have sent an e-mail to you for\n"
+"verification. Please click on the link inside this e-mail. Please\n"
+"contact us if you do not receive it within a few minutes."
+msgstr ""
+
+#: vien_nchl/templates/account/verified_email_required.html:20
+#, python-format
+msgid ""
+"<strong>Note:</strong> you can still <a href=\"%(email_url)s\">change your e-"
+"mail address</a>."
+msgstr ""
+
+#: vien_nchl/templates/base.html:53
+msgid "My Profile"
+msgstr ""
+
+#: vien_nchl/templates/base_web.html:7 vien_nchl/templates/footer.html:8
+msgid "Viện nghiên cứu và đào tạo tiêu hoá gan mật"
+msgstr ""
+
+#: vien_nchl/templates/footer.html:9
+msgid ""
+"Viện nghiên cứu và Đào tạo Tiêu hoá, Gan Mật theo yêu cầu đây là\n"
+"            đơn vị đầu ngành sở hữu dàn máy nội soi và siêu âm nội soi hiện "
+"đại\n"
+"            và tiên tiến\n"
+"            bậc nhất hiện nay tại Việt Nam.Đào tạo bồi dưỡng cán bộ y tế ,\n"
+"            hợp tác quốc tế"
+msgstr ""
+
+#: vien_nchl/templates/footer.html:16
+msgid "Điều hướng"
+msgstr ""
+
+#: vien_nchl/templates/footer.html:18 vien_nchl/templates/header.html:42
+#: vien_nchl/templates/header.html:72
+msgid "Trang chủ"
+msgstr ""
+
+#: vien_nchl/templates/footer.html:19 vien_nchl/templates/header.html:43
+#: vien_nchl/templates/header.html:73 vien_nchl/templates/web/home.html:96
+msgid "Giới thiệu"
+msgstr ""
+
+#: vien_nchl/templates/footer.html:20 vien_nchl/templates/header.html:44
+#: vien_nchl/templates/header.html:74 vien_nchl/templates/web/home.html:68
+#: vien_nchl/templates/web/home.html:276
+msgid "Nghiên cứu"
+msgstr ""
+
+#: vien_nchl/templates/footer.html:21 vien_nchl/templates/header.html:45
+#: vien_nchl/templates/header.html:75 vien_nchl/templates/web/home.html:80
+msgid "Đào tạo"
+msgstr ""
+
+#: vien_nchl/templates/footer.html:22 vien_nchl/templates/header.html:46
+#: vien_nchl/templates/header.html:76 vien_nchl/templates/web/home.html:448
+msgid "Tin tức"
+msgstr ""
+
+#: vien_nchl/templates/footer.html:23 vien_nchl/templates/footer.html:27
+#: vien_nchl/templates/header.html:47 vien_nchl/templates/header.html:77
+msgid "Liên hệ"
+msgstr ""
+
+#: vien_nchl/templates/header.html:52 vien_nchl/templates/header.html:82
+msgid "Đăng ký khoá học"
+msgstr ""
+
+#: vien_nchl/templates/web/home.html:16 vien_nchl/templates/web/home.html:31
+#: vien_nchl/templates/web/home.html:46
+msgid "Đào tạo ngay"
+msgstr ""
+
+#: vien_nchl/templates/web/home.html:62
+msgid "Chuyên gia hàng đầu"
+msgstr ""
+
+#: vien_nchl/templates/web/home.html:63
+msgid ""
+"Đội ngũ chuyên gia hàng đầu trong lĩnh vực tiêu hóa và gan mật\n"
+"                tại Việt Nam"
+msgstr ""
+
+#: vien_nchl/templates/web/home.html:69
+msgid ""
+"Thực hiện nghiên cứu đề tài dự án trong lĩnh vực tiêu hóa, gan\n"
+"                mật, chăm sóc sức khỏe cộng đồng và các nghiên cứu xã hội "
+"liên\n"
+"                quan"
+msgstr ""
+
+#: vien_nchl/templates/web/home.html:75
+msgid "Tư vấn"
+msgstr ""
+
+#: vien_nchl/templates/web/home.html:76
+msgid "Tư vấn chuyển giao kết quả nghiên cứu khoa học"
+msgstr ""
+
+#: vien_nchl/templates/web/home.html:81
+msgid ""
+"Đào tạo sau đại học và đạo tạo liên tục cho bác sĩ và điều\n"
+"                dưỡng về tiêu hóa, gan mật"
+msgstr ""
+
+#: vien_nchl/templates/web/home.html:109
+msgid ""
+"Là tổ chức khoa học công nghệ nghiên\n"
+"                cứu và đào tạo chuyên sâu về các vấn đề tiêu hóa và gan mật, "
+"viện ra đời với các chức năng\n"
+"                chính:"
+msgstr ""
+
+#: vien_nchl/templates/web/home.html:119 vien_nchl/templates/web/home.html:416
+msgid "Nghiên cứu và triển khai"
+msgstr ""
+
+#: vien_nchl/templates/web/home.html:126
+msgid "Tư vấn và chuyển giao kỹ thuật"
+msgstr ""
+
+#: vien_nchl/templates/web/home.html:135 vien_nchl/templates/web/home.html:420
+msgid "Đào tạo và bồi dưỡng"
+msgstr ""
+
+#: vien_nchl/templates/web/home.html:142 vien_nchl/templates/web/home.html:435
+msgid "Hợp tác và phát triển"
+msgstr ""
+
+#: vien_nchl/templates/web/home.html:159
+msgid "Chuyên ngành đào tạo"
+msgstr ""
+
+#: vien_nchl/templates/web/home.html:160
+msgid ""
+"Đào tạo nâng cao chuyên ngành , trình độ chuyên môn cho cán bộ\n"
+"            y tế trong lĩnh vực gan , mật"
+msgstr ""
+
+#: vien_nchl/templates/web/home.html:224
+msgid "Trang thiết bị hiện đại"
+msgstr ""
+
+#: vien_nchl/templates/web/home.html:225
+msgid ""
+"Viện nghiên cứu phối hợp cùng phòng khám đa khoa Hoàng Long áp dụng hệ thống "
+"máy móc hiện\n"
+"            đại và tiên tiến\n"
+"            để tiến hành các nghiên cứu chuyên sâu trong lĩnh vực tiêu hóa "
+"gan mật."
+msgstr ""
+
+#: vien_nchl/templates/web/home.html:277
+msgid "Các đề tài nghiên cứu chuyên môn tiêu biểu."
+msgstr ""
+
+#: vien_nchl/templates/web/home.html:293 vien_nchl/templates/web/home.html:311
+#: vien_nchl/templates/web/home.html:328 vien_nchl/templates/web/home.html:465
+#: vien_nchl/templates/web/home.html:484 vien_nchl/templates/web/home.html:503
+msgid "Xem thêm"
+msgstr ""
+
+#: vien_nchl/templates/web/home.html:343
+msgid "Đội ngũ chuyên gia hàng đầu"
+msgstr ""
+
+#: vien_nchl/templates/web/home.html:344
+msgid ""
+"Đội ngũ chuyên gia, các bác sĩ là những người tận tâm với nghề,\n"
+"            giỏi chuyên môn được đào tạo bài bản tại Việt Nam và nước ngoài."
+msgstr ""
+
+#: vien_nchl/templates/web/home.html:428
+msgid "Tư vấn và chuyển giao"
+msgstr ""
+
+#: vien_nchl/users/models.py:13
+msgid "Name of User"
+msgstr ""
+
+#: vien_nchl/web/models.py:18
+msgid "Tiêu đề"
+msgstr ""
+
+#: vien_nchl/web/models.py:19 vien_nchl/web/models.py:46
+msgid "Mô tả"
+msgstr ""
+
+#: vien_nchl/web/models.py:44
+msgid "Tên"
+msgstr ""
+
+#: vien_nchl/web/models.py:45
+msgid "Học hàm học vị"
+msgstr ""

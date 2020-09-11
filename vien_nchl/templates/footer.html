@@ -1,0 +1,63 @@
+{% load static i18n %}
+{% block footer %}
+  <footer id="colorlib-footer" role="contentinfo">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row row-pb-md">
+        <div class="col-md-3 colorlib-widget">
+          <h3>{% trans "Viện nghiên cứu và đào tạo tiêu hoá gan mật" %}</h3>
+          <p>{% blocktrans %}Viện nghiên cứu và Đào tạo Tiêu hoá, Gan Mật theo yêu cầu đây là
+            đơn vị đầu ngành sở hữu dàn máy nội soi và siêu âm nội soi hiện đại
+            và tiên tiến
+            bậc nhất hiện nay tại Việt Nam.Đào tạo bồi dưỡng cán bộ y tế ,
+            hợp tác quốc tế{% endblocktrans %}</p>
+        </div>
+        <div class="col-md-2 colorlib-widget">
+          <h3>{% trans "Điều hướng" %}</h3>
+          <ul class="colorlib-footer-links">
+            <li><a href="#"><i class="icon-check"></i>{% trans "Trang chủ" %}</a></li>
+            <li><a href="#"><i class="icon-check"></i>{% trans "Giới thiệu" %} </a></li>
+            <li><a href="#"><i class="icon-check"></i>{% trans "Nghiên cứu" %}</a></li>
+            <li><a href="#"><i class="icon-check"></i>{% trans "Đào tạo" %}</a></li>
+            <li><a href="#"><i class="icon-check"></i>{% trans "Tin tức" %}</a></li>
+            <li><a href="#"><i class="icon-check"></i>{% trans "Liên hệ" %}</a></li>
+          </ul>
+        </div>
+        <div class="col-md-2 colorlib-widget">
+          <h3>{% trans "Liên hệ" %}</h3>
+          <ul class="colorlib-footer-links">
+            <li><a href="#"><i class="fab fa-facebook-f"></i>&nbsp;Facebook</a>
+            </li>
+            <li><a href="#"><i class="fab fa-google"></i>&nbsp;Google Plus</a>
+            </li>
+            <li><a href="#"><i class="fas fa-phone"></i>&nbsp;02462811337</a>
+            </li>
+
+          </ul>
+        </div>
+        <div class="col-md-5 colorlib-widget">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.601890460268!2d105.83558666461255!3d21.008589693843202!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab87801a5743%3A0xc8fc407c3c3ef8ec!2zUGjDsm5nIGtow6FtIMSQYSBraG9hIEhvw6BuZyBMb25n!5e0!3m2!1svi!2s!4v1530982815051"
+            width="400" height="300" frameborder="0" style="border:0"
+            allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+    <div class="row copyright">
+      <div class="col-md-12 text-center">
+        <p>
+          <small class="block">
+            Copyright ©
+            <script>document.write(new Date().getFullYear());</script>
+            All
+            rights reserved | KDVTeam
+          </small>
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <div class="gototop js-top">
+    <a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
+  </div>
+{% endblock %}
